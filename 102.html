@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/hover.css">
+    <script src="https://kit.fontawesome.com/81ad6e23c7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./CSS/rides.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/app.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Rides | Sanjalika Water World</title>
+    <link rel="icon" href="./images/slected.png" alt="slected.png" type="image/icon type">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4" id="r2">
+                <div class="im1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <img src="./images/Pendulam.png" alt="Pendulam.png" width="100%">
+                    <p>Pendulam</p>
+                </div>
+            </div>
+
+            <div class="col-sm-4" id="r3">
+                <div class="im1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <img src="./images/Boomrengo.png" alt="Boomrengo.png" width="100%">
+                    <p>BOOMRENGO</p>
+                </div>
+            </div>
+
+            <div class="col-sm-4" id="r4">
+                <div class="im1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <img src="./images/Big-Monstar.png" alt="Big-Monstar.png" width="100%">
+                    <p>Big Monster</p>
+                </div>
+            </div>
+
+            <div class="col-sm-4" id="r5">
+                <div class="im1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <img src="./images/RainBow.png" alt="Rainbow.png" width="100%">
+                    <p>Rainbow</p>
+                </div>
+            </div>
+
+
+            <div class="col-sm-4" id="r6">
+                <div class="im1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <img src="./images/FreeFall.png" alt="FreeFall.png" width="100%">
+                    <p>Free Fall</p>
+                </div>
+            </div>
+
+            <div class="col-sm-4" id="r7">
+                <div class="im1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <img src="./images/WavePool.png" alt="WavePool" width="100%">
+                    <p>Wave Pool</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="loadomatic__trigger loadomatic__trigger--hidden" aria-label="Load more">
+        <div class="container">
+            <p class="icon icon--plus icon--adjust delta"><span class="epsilon">More</span></p>
+        </div>
+    </div>
+    <div class="loadomatic__pagination">
+        <div class="container">
+            <ul class="eta">
+                <li><span class="selected">1</span></li>
+                <li><a href="projects4658.html?page=2" class="a">2</a></li>
+                <li><a href="projects9ba9.html?page=3" class="a">3</a></li>
+                <li><a href="projects4658.html?page=2" class="a icon icon--arrow-r epsilon"
+                        aria-label="Next page"></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+    window.TheBoundary = function (common) {
+        common.buildToggles();
+        common.prepareFilters();
+        common.assembleLoadOMatic({
+            loadUrl: 'https://www.the-boundary.com/projects',
+            currentPage: 1,
+            totalPages: 3,
+            extraQuery: ''
+        }, true);
+    };
+</script>
+    
+</body>
+</html>
