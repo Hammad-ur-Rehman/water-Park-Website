@@ -1,0 +1,23 @@
+.sim {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.abc {
+    width: 100%;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    font-weight: bold;
+}
+.col-sm-4{
+    display: none;
+}
